@@ -7,10 +7,13 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      colors:{
+        ivory: '#FFFFF0'
       },
+      fontFamily:{
+        poppins:['Poppins', 'serif'],
+        bungee:[ "Bungee", "serif"]
+      }
     },
   },
   plugins: [],
