@@ -5,9 +5,12 @@ import { FaCloudUploadAlt } from "react-icons/fa";
 import AdminCard from "@/components/AdminCard";
 import useBlogs from "../data/blogs";
 import Loader from "@/components/Loader";
+import dynamic from "next/dynamic";
 import { toast, ToastContainer } from "react-toastify";
-import ReactQuill from "react-quill-new";
-import 'react-quill-new/dist/quill.snow.css';
+import "react-toastify/dist/ReactToastify.css";
+const ReactQuill = dynamic(() => import("react-quill-new"), { ssr: false });
+import "react-quill-new/dist/quill.snow.css";
+
 
 export default function Boss(){
     const fetchedBlogs = useBlogs()
