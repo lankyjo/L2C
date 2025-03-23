@@ -79,7 +79,7 @@ const Header = () => {
             </li>
             <li className={`flex-1 text-center py-3 ${isActive('/blog')}`}>
               <Link href="/blog" className='block hover:text-red-500 transition-all font-light'>
-                My Blog
+                My Blogs
               </Link>
             </li>
             <li className={`flex-1 text-center py-3 ${isActive('/#contact')}`}>
@@ -99,7 +99,7 @@ const Header = () => {
               </a>
             </li>
           </ul>
-          <h2 className='font-bungee text-xl md:hidden border-l border-black p-3'>L2₵</h2>
+          <h2 className='font-bungee text-xl md:hidden border-l border-black p-3'><Link href={'/'}>L2₵</Link></h2>
           <button
             onClick={() => setIsopen(true)}
             className='md:hidden py-3 px-3 text-2xl text-black border-l border-r border-black'

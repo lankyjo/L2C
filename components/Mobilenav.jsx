@@ -13,7 +13,7 @@ const Mobilenav = ({setIsopen, isOpen}) => {
         <ul className='space-y-4'>
         <li className='text-center text-2xl'><Link href="/" onClick={()=>setIsopen(false)} className='block hover:text-red-500 transition-all font-light'>Home</Link></li>
         <li className='text-center text-2xl'><Link href="/about" onClick={()=>setIsopen(false)} className='block hover:text-red-500 transition-all font-light'>About</Link></li>
-        <li className='text-center text-2xl'><Link href="/blog" onClick={()=>setIsopen(false)} className='block hover:text-red-500 transition-all font-light'>My Blog</Link></li>
+        <li className='text-center text-2xl'><Link href="/blog" onClick={()=>setIsopen(false)} className='block hover:text-red-500 transition-all font-light'>My Blogs</Link></li>
         <li className='text-center text-2xl'><Link href="/#contact" onClick={()=>setIsopen(false)} className='block hover:text-red-500 transition-all font-light'>Contact</Link></li>
         <li className='text-center text-2xl flex justify-center gap-3'>
             <a className="hover:text-red-500 transition-all" target="_blank" href="https://https://x.com/The_lankyjo"><FaSquareXTwitter /></a>

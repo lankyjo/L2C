@@ -6,7 +6,7 @@ import { uploadImage } from "@/lib/cloudinary"; // ✅ Import Cloudinary helper
 export async function GET() {
   try {
     await connectToDatabase();
-    const blogs = await Blog.find();
+    const blogs = await Blog.find().sort({date: -1});
     return NextResponse.json(blogs);
   } catch (error) {
     return NextResponse.json({ error: "Failed to fetch blogs" }, { status: 500 });

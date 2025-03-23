@@ -36,9 +36,9 @@ const About = () => {
         <Follow/>
 
         <div id='socials' className='text-center space-x-5 py-3 border-b border-black'>
-            <a className="hover:text-red-500 transition-all inline-block text-3xl" href=""><FaSquareXTwitter /></a>
-            <a className="hover:text-red-500 transition-all inline-block text-3xl" href=""><AiFillInstagram /></a>
-            <a className="hover:text-red-500 transition-all inline-block text-3xl" href=""><FaFacebookF /></a>
+            <a className="hover:text-red-500 transition-all inline-block text-3xl" target='_blank' href="https://x.com/The_lankyjo"><FaSquareXTwitter /></a>
+            <a className="hover:text-red-500 transition-all inline-block text-3xl" target='_blank' href="https://instagram.com/thelankyjo"><AiFillInstagram /></a>
+            <a className="hover:text-red-500 transition-all inline-block text-3xl" target='_blank' href="https://web.facebook.com/ikeji.joshua.7"><FaFacebookF /></a>
         </div>
 
     </section>
